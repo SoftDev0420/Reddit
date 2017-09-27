@@ -1,0 +1,15 @@
+{
+  "presets": ["react-native"],
+  "env": {
+    "node": {
+      "plugins": [
+        [
+          "babel-plugin-transform-require-ignore",
+          {
+            "extensions": [".html"]
+          }
+        ]
+      ]
+    }
+  }
+}
