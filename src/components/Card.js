@@ -22,7 +22,7 @@ const Card = ({ data }) => {
         style={styles.image} 
         activityIndicatorProps={{
           size: 'large',
-          color: 'green',
+          color: 'red',
         }} 
         src={url}
       />
